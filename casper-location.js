@@ -9,19 +9,28 @@ class CasperLocation extends PolymerElement {
        *
        * @type {String}
        */
-      pathname: String,
+      pathname: {
+        type: String,
+        notify: true
+      },
       /**
        * The current URL's search params.
        *
        * @type {String}
        */
-      search: String,
+      search: {
+        type: String,
+        notify: true
+      },
       /**
        * The current URL's hash.
        *
        * @type {String}
        */
-      hash: String,
+      hash: {
+        type: String,
+        notify: true
+      },
       /**
        * The current URL.
        *
