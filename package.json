@@ -1,5 +1,5 @@
 {
-  "name": "@cloudware-casper/casper-location",
+  "name": "@toconline/casper-location",
   "main": "casper-location.js",
   "version": "1.1.0",
   "publishConfig": {
